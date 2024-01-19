@@ -1,9 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&display=swap');
+
 $color-1: #393A5A;
 $color-2: #706F8E;
 $color-3: #ADA9BA;
 
 $black: #22222E;
 $white: #E9E9E9;
+
+$fontSize-1: 30px;
+$fontSize-2: 15px;
+
+$fontFamily-1: "Nunito Sans", sans-serif;
 
 * {
     margin: 0;
@@ -12,8 +19,10 @@ $white: #E9E9E9;
 }
 
 body {
-    background-color: $white;
     color: $black;
+    width: 100%;
+    height: 100vh;
+    font-family: $fontFamily-1;
 }
 
 li {

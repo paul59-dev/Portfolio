@@ -4,8 +4,11 @@ import ImagePP from '../assets/images/Paul.jpg'
 const Header = () => {
     return (
         <div className="header">
-            <img src={ImagePP} alt="Photos de profil" />
-            <div>
+            <div className="pp">
+                <img src={ImagePP} alt="Photos de profil" />
+                <p>Paul Allebée</p>
+            </div>
+            <div className="information">
                 <div>
                     <p>4</p>
                     <p>Projets</p>
