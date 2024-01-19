@@ -1,0 +1,25 @@
+$color-1: #393A5A;
+$color-2: #706F8E;
+$color-3: #ADA9BA;
+
+$black: #22222E;
+$white: #E9E9E9;
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: $white;
+    color: $black;
+}
+
+li {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+}
