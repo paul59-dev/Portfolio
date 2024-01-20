@@ -1,44 +1,103 @@
 .header {
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    
+    padding: 0 40px;
 
-    .pp {
-        text-align: center;
-        img {
-            width: 150px;
-            height: 150px;
-            border-radius: 50%;
+    .first-row {
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+        .pp {
+            text-align: center;
+            img {
+                width: 150px;
+                height: 150px;
+                border-radius: 50%;
+            }
         }
-
-        p {
-            font-size: $fontSize-1;
+    
+        .information {
+            width: 65%;
+            display: flex;
+            justify-content: flex-end;
+            align-items: center;   
+    
+            div {
+                width: 100%;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                flex-direction: column;
+    
+                p:first-child {
+                    font-weight: bold;
+                    font-size: $fontSize-1;
+                }
+    
+                p:nth-child(2) {
+                    font-size: $fontSize-2;
+                    color: $color-2;
+                }
+            }
         }
     }
 
-    .information {
-        width: 50%;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-
-        div {
-            width: 100%;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            flex-direction: column;
-
-            p:first-child {
-                font-weight: bold;
-                font-size: $fontSize-1;
-            }
-
-            p:nth-child(2) {
-                font-size: $fontSize-2;
-            }
+    .second-row {
+        p {
+            font-size: $fontSize-1;
         }
 
+        .subtitle {
+            text-align: left;
+            p:first-child {
+                font-size: $fontSize-2;
+                color: $color-3;
+            }
+
+            a {
+                width: 65px;
+                height: 20px;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                background-color: $black;
+                border-radius: 10px;
+                margin-top: 10px;
+                transition: background-color 0.5s ease-in;
+                
+                img {
+                    margin-right: 2px;
+                    width: 15px;
+                    height: 15px;
+                    filter: invert(100%);
+                }
+
+                p {
+                    font-size: $fontSize-3;
+                    color: $white;
+                }
+            }
+            a:hover {
+                transition: background-color 0.5s ease;
+                background-color: $color-2;
+                cursor: pointer;
+
+                img {
+                    filter: invert(100%);
+                    fill: $black;
+                }
+
+                p {
+                    transition: color 0.5s ease;
+                    color: $black;
+                }
+            }
+        }   
+    }
+
+    .profile {
+        width: 85%;
+        padding-top: 10px;
+        overflow-wrap: break-word;
     }
 }
