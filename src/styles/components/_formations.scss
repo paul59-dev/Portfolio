@@ -1,0 +1,38 @@
+.formation-item {
+    display: flex;
+    align-items: flex-start;
+    margin-bottom: 20px;
+  
+    .bullet {
+      position: relative;
+  
+      &::before {
+        content: '';
+        position: absolute;
+        left: 4px; /* Ajustez la distance de la ligne par rapport au rond */
+        top: 10px; /* Décalez la ligne vers le bas */
+        height: calc(100% + 150px); /* Hauteur de la ligne jusqu'à l'élément <p>{year}</p> */
+        width: 2px; /* Largeur de la ligne noire */
+        background-color: $black;
+      }
+  
+      width: 10px;
+      height: 10px;
+      background-color: $black;
+      border-radius: 50%;
+      margin-right: 20px;
+    }
+  
+    .content {
+      flex: 1;
+  
+      h3 {
+        margin: 0;
+        font-size: 1.2em;
+      }
+  
+      p {
+        margin: 5px 0;
+      }
+    }
+  }
