@@ -2,9 +2,9 @@ import React from 'react';
 import Header from '../components/Header';
 import Navigation from '../components/Navigation';
 
-const Language = () => {
+const Skills = () => {
     return (
-        <div className="language">
+        <div className="skills">
             <Header/>
             <Navigation/>
             <p>Language programing</p>
@@ -12,4 +12,4 @@ const Language = () => {
     );
 };
 
-export default Language;
+export default Skills;

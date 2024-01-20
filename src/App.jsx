@@ -2,8 +2,8 @@ import React from 'react';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import Home from './pages/Home';
 import About from './pages/About';
-import Language from './pages/Language';
 import Contact from './pages/Contact';
+import Skills from './pages/Skills';
 
 const App = () => {
   return (
@@ -12,7 +12,7 @@ const App = () => {
         <Routes>
           <Route path="/" element={<Home/>} />
           <Route path="/about" element={<About/>} />
-          <Route path="/language" element={<Language/>} />
+          <Route path="/skills" element={<Skills/>} />
           <Route path="/contact" element={<Contact/>} />
           <Route path="*" element={<Home/>} />
         </Routes>

@@ -1,0 +1,62 @@
+[
+    {
+        "title": "Quizz Game",
+        "description": "Un jeu de quiz passionnant sur la culture générale.",
+        "languages": "Golang"
+    },
+    {
+        "title": "Post APi",
+        "description": "API Node.js pour les publications d'utilisateurs, opérations CRUD sur les posts avec gestion des likes et dislikes.",
+        "languages": "Javascript"
+    },
+    {
+        "title": "Casino",
+        "description": "Un jeu de casino, miser, jouer, gagné !",
+        "languages": "Java"
+    },
+    {
+        "title": "Cottage",
+        "description": "Projet de stage fin de BTS 1er année, pour la reservation de salle du Cottage des Flandres.",
+        "languages": "Javascript - PHP - Tailwind"
+    },
+    {
+        "title": "TikTakToeGo",
+        "description": "Jeu de morpion en cli, joueur contre joueur.",
+        "languages": "Golang"
+    },
+    {
+        "title": "API-Pokemon",
+        "description": "Api Nodejs pour créer, récupérer, modifier des pokémon.",
+        "languages": "Javascript"
+    },
+    {
+        "title": "Library",
+        "description": "Ce projet simule un système de bibliothèque pour la gestion des livres et des utilisateurs.",
+        "languages": "Java"
+    },
+    {
+        "title": "ToDoList",
+        "description": "Le projet est une application cli, pour la gestion de listes de tâches.",
+        "languages": "Java"
+    },
+    {
+        "title": "Nintendo",
+        "description": "Refaire la page de Nintendo.",
+        "languages": "HTML - CSS"
+    },
+    {
+        "title": "GeneratePass",
+        "description": "Stockage de compte et mot de passe, application en cli.",
+        "languages": "Ruby"
+    },
+    {
+        "title": "Portfolio Nature",
+        "description": "Portfolio sur la nature avec Unsplash.",
+        "languages": "HTML - CSS"
+    },
+    {
+        "title": "EchoBot",
+        "description": "Bot discord reponse: ping pong",
+        "languages": "Golang"
+    }
+]

@@ -15,7 +15,7 @@ const Navigation = () => {
                 <NavLink to="/about" className={(nav) => (nav.isActive ? "nav-active" : "")}>
                     <li><img src={ImageAboutMe} alt="A propos de moi"/></li>
                 </NavLink>
-                <NavLink to="/language" className={(nav) => (nav.isActive ? "nav-active" : "")}>
+                <NavLink to="/skills" className={(nav) => (nav.isActive ? "nav-active" : "")}>
                     <li><img src={ImageLanguage} alt="Langage de programmation"/></li>
                 </NavLink>
                 <NavLink to="/contact" className={(nav) => (nav.isActive ? "nav-active" : "")}>
