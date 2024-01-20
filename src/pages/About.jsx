@@ -2,13 +2,13 @@ import React from 'react';
 import Header from '../components/Header';
 import Navigation from '../components/Navigation';
 
-const Home = () => {
+const About = () => {
     return (
-        <div className="home">
+        <div className="about">
             <Header />
             <Navigation />
         </div>
     );
 };
 
-export default Home;
+export default About;

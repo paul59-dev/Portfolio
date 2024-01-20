@@ -2,13 +2,14 @@ import React from 'react';
 import Header from '../components/Header';
 import Navigation from '../components/Navigation';
 
-const Home = () => {
+const Contact = () => {
     return (
-        <div className="home">
-            <Header />
-            <Navigation />
+        <div className="contact">
+            <Header/>
+            <Navigation/>
+            <p>contact</p>
         </div>
     );
 };
 
-export default Home;
+export default Contact;

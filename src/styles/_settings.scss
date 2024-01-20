@@ -1,11 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&display=swap');
 
-$color-1: #393A5A;
-$color-2: #706F8E;
-$color-3: #ADA9BA;
+$color-1: #16354D;
+$color-2: #6B99C3;
+$color-3: #D2D2D4;
 
-$black: #22222E;
-$white: #E9E9E9;
+$black: #0C151C;
+$white: #E4E5EA;
 
 $fontSize-1: 30px;
 $fontSize-2: 15px;
@@ -33,4 +33,11 @@ li {
 a {
     text-decoration: none;
     color: $color-2;
+}
+
+.home, .about, .contact, .language {
+    width: 60%;
+    margin: 0 auto;
+    padding: 20px;
+    transition: width 0.5s ease;
 }
