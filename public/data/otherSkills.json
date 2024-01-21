@@ -1,0 +1,17 @@
+[
+    {
+        "image": "https://imgs.search.brave.com/zxcRhGpN6YkO9zkN_PsjreGcsjzUp4hUIDdXgCRf2tA/rs:fit:500:0:0/g:ce/aHR0cHM6Ly90NC5m/dGNkbi5uZXQvanBn/LzA1LzEwLzg3Lzk1/LzM2MF9GXzUxMDg3/OTU5MF80ckZMZE9a/ZU5VM2RBWTlvZEF3/cW5rZFFSZlluaHV3/Si5qcGc",
+        "alt": "Helpdesk",
+        "title": "Helpdesk - 30%"
+    },
+    {
+        "image": "https://seeklogo.com/images/D/docker-logo-CF97D0124B-seeklogo.com.png",
+        "alt": "Docker",
+        "title": "Docker - 20%"
+    },
+    {
+        "image": "https://seeklogo.com/images/C/cisco-logo-DDA7EFD10D-seeklogo.com.png",
+        "alt": "Réseaux",
+        "title": "Réseaux - 20%"
+    }
+]

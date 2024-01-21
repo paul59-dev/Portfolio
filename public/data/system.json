@@ -1,0 +1,17 @@
+[
+    {
+        "image": "https://seeklogo.com/images/W/windows-10-icon-logo-5BC5C69712-seeklogo.com.png",
+        "alt": "Windows",
+        "title": "Windows - 95%"
+    },
+    {
+        "image": "https://seeklogo.com/images/L/Linux_Tux-logo-DA252F3C21-seeklogo.com.png",
+        "alt": "Linux",
+        "title": "Linux - 70%"
+    },
+    {
+        "image": "https://seeklogo.com/images/A/android-logo-9E4539A7DE-seeklogo.com.png",
+        "alt": "Android",
+        "title": "Android - 95%"
+    }
+]

@@ -1,0 +1,42 @@
+[
+    {
+        "image": "https://seeklogo.com/images/H/html5-without-wordmark-color-logo-14D252D878-seeklogo.com.png",
+        "alt": "html",
+        "title": "HTML - 90%"
+    },
+    {
+        "image": "https://seeklogo.com/images/C/css-3-logo-023C1A7171-seeklogo.com.png",
+        "alt": "CSS",
+        "title": "CSS - 80%"
+    },
+    {
+        "image": "https://seeklogo.com/images/J/javascript-logo-8892AEFCAC-seeklogo.com.png",
+        "alt": "Javascript",
+        "title": "JS - 70%"
+    },
+    {
+        "image": "https://seeklogo.com/images/J/java-logo-7F8B35BAB3-seeklogo.com.png",
+        "alt": "Java",
+        "title": "Java - 60%"
+    },
+    {
+        "image": "https://seeklogo.com/images/G/go-logo-046185B647-seeklogo.com.png",
+        "alt": "Golang",
+        "title": "Golang - 50%"
+    },
+    {
+        "image": "https://seeklogo.com/images/R/rubygems-logo-1AD43C5504-seeklogo.com.png",
+        "alt": "Ruby",
+        "title": "Ruby - 60%"
+    },
+    {
+        "image": "https://seeklogo.com/images/P/php-logo-ADE513E748-seeklogo.com.png",
+        "alt": "Php",
+        "title": "Php - 70%"
+    },
+    {
+        "image": "https://seeklogo.com/images/P/python-logo-A32636CAA3-seeklogo.com.png",
+        "alt": "Python",
+        "title": "Python - 50%"
+    }
+]

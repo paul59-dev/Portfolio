@@ -1,0 +1,67 @@
+.skills {
+    section {
+        .grid-container {
+            margin: 10px 0 20px 0;
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(120px, 1fr));
+            gap: 20px;
+        }
+
+        .card {
+            position: relative;
+            height: 120px;
+            padding: 20px;
+            border: 1px solid #ccc;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            color: $white;
+            font-weight: bold;
+            display: flex;
+            justify-content: center; /* Centrer le contenu horizontalement */
+            align-items: center;
+            flex-direction: column;
+            transition: 0.5s ease;
+
+            img {
+                width: 80;
+                height: 80%;
+                // border-radius: 8px; /* Assurez-vous que l'image suit la forme de la carte */
+            }
+
+            p {
+                position: absolute;
+            }
+
+            &:hover {
+                &::before {
+                    content: '';
+                    position: absolute;
+                    top: 0;
+                    left: 0;
+                    width: 100%;
+                    height: 100%;
+                    background-color: $black;
+                    opacity: 0.5;
+                    border-radius: 8px;
+                }
+
+                p {
+                    margin: 0;
+                    opacity: 1;
+                    z-index: 1;
+                }
+
+                transform: scale(1.1);
+                transition: transform 0.3s ease;
+            }
+
+            p {
+                font-weight: bold;
+                margin: 0;
+                opacity: 0;
+                transition: opacity 0.3s ease;
+                z-index: 0;
+            }
+        }
+    }
+}

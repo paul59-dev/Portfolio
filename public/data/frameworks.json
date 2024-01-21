@@ -1,0 +1,17 @@
+[
+    {
+        "image": "https://seeklogo.com/images/R/react-logo-7B3CE81517-seeklogo.com.png",
+        "alt": "React.js",
+        "title": "React.js - 70%"
+    },
+    {
+        "image": "https://seeklogo.com/images/R/ruby-on-rails-logo-95951CC5FB-seeklogo.com.png",
+        "alt": "Ruby on Rails",
+        "title": "RoR - 50%"
+    },
+    {
+        "image": "https://seeklogo.com/images/N/nodejs-logo-54107C5EDD-seeklogo.com.png?v=638179441380000000",
+        "alt": "Express.js",
+        "title": "Express - 70%"
+    }
+]
