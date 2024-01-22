@@ -11,7 +11,7 @@ const Header = () => {
                 </div>
                 <div className="information">
                     <div>
-                        <p>4</p>
+                        <p>12</p>
                         <p>Projets</p>
                     </div>
                     <div>
@@ -19,7 +19,7 @@ const Header = () => {
                         <p>Mois en entreprise</p>
                     </div>
                     <div>
-                        <p>20</p>
+                        <p>+17</p>
                         <p>Compétences</p>
                     </div>
                 </div>
