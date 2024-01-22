@@ -8,8 +8,9 @@ $black: #0C151C;
 $white: #E4E5EA;
 
 $fontSize-1: 30px;
-$fontSize-2: 15px;
-$fontSize-3: 11px;
+$fontSize-2: 20px;
+$fontSize-3: 15px;
+$fontSize-4: 11px;
 
 $fontFamily-1: "Nunito Sans", sans-serif;
 
@@ -39,6 +40,10 @@ li {
 a {
     text-decoration: none;
     color: $color-2;
+}
+
+img {
+    max-width: 200px;
 }
 
 .home, .about, .contact, .skills {
