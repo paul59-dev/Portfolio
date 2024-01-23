@@ -23,7 +23,7 @@ $fontFamily-1: "Nunito Sans", sans-serif;
 
 body {
     color: $black;
-    width: 100%;
+    max-width: 100vw;
     height: 100vh;
     font-family: $fontFamily-1;
 }
@@ -54,5 +54,18 @@ img {
 
     section {
         padding: 20px 40px;
+
+        @media screen and (max-width: $mobile-breakpoint) {
+            padding: 0;
+        }
+    }
+
+    @media screen and (max-width: $mobile-breakpoint) {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        width: 100vw;
+        padding: 0;
     }
 }

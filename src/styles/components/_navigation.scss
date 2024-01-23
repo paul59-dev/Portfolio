@@ -15,7 +15,16 @@
             img {
                 width: 40px;
                 height: 40px;
+
+                @media screen and (max-width: $mobile-breakpoint) {
+                  width: 40px;
+                  height: 40px;
+              }
             }
+
+            @media screen and (max-width: $mobile-breakpoint) {
+              margin: 0 28px;
+          }
         }
 
         .nav-active {
@@ -47,4 +56,8 @@
             }
           }
     }
+
+  @media screen and (max-width: $mobile-breakpoint) {
+      width: 60%;
+  }
 }

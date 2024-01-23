@@ -19,6 +19,10 @@ const Header = () => {
                         <p>Mois en entreprise</p>
                     </div>
                     <div>
+                        <p>4</p>
+                        <p>Expériences</p>
+                    </div>
+                    <div>
                         <p>+17</p>
                         <p>Compétences</p>
                     </div>

@@ -13,6 +13,11 @@
                 width: 150px;
                 height: 150px;
                 border-radius: 50%;
+
+                @media screen and (max-width: $mobile-breakpoint) {
+                    width: 100px;
+                    height: 100px;
+                }
             }
         }
     
@@ -21,7 +26,8 @@
             display: flex;
             justify-content: flex-end;
             align-items: center;   
-    
+
+            
             div {
                 width: 100%;
                 display: flex;
@@ -32,11 +38,40 @@
                 p:first-child {
                     font-weight: bold;
                     font-size: $fontSize-1;
+
+                    @media screen and (max-width: $mobile-breakpoint) {
+                        font-size: $fontSize-3;
+                    }
                 }
     
                 p:nth-child(2) {
                     font-size: $fontSize-2;
                     color: $color-1;
+                    
+                    @media screen and (max-width: $mobile-breakpoint) {
+                        font-size: $fontSize-3;
+                    }
+                }
+
+                @media screen and (max-width: $mobile-breakpoint) {
+                    margin-left: 20px;
+                }
+            }
+
+            div:nth-child(3) {
+                display: none;
+            }
+
+            @media screen and (max-width: $mobile-breakpoint) {
+                width: 100%;
+
+                div:nth-child(2) {
+                    display: none;
+                }
+
+                div:nth-child(3) {
+                    display: block;
+                    display: flex;
                 }
             }
         }
@@ -76,20 +111,26 @@
                     font-size: $fontSize-3;
                     color: $white;
                 }
-            }
-            a:hover {
-                transition: background-color 0.5s ease;
-                background-color: $color-2;
-                cursor: pointer;
 
-                img {
-                    filter: invert(100%);
-                    fill: $black;
+                &:hover {
+                    transition: background-color 0.5s ease;
+                    background-color: $color-2;
+                    cursor: pointer;
+    
+                    img {
+                        filter: invert(100%);
+                        fill: $black;
+                    }
+    
+                    p {
+                        transition: color 0.5s ease;
+                        color: $black;
+                    }
                 }
 
-                p {
-                    transition: color 0.5s ease;
-                    color: $black;
+                @media screen and (max-width: $mobile-breakpoint) {
+                    width: 75px;
+                    height: 20px;
                 }
             }
         }   
@@ -99,5 +140,14 @@
         width: 85%;
         padding-top: 10px;
         overflow-wrap: break-word;
+
+        @media screen and (max-width: $mobile-breakpoint) {
+            width: 100%;
+        }
+    }
+
+    @media screen and (max-width: $mobile-breakpoint) {
+        width: 100%;
+        padding: 5px 5px;
     }
 }
