@@ -1,10 +1,17 @@
 .skills {
+
     section {
+
         .grid-container {
             margin: 10px 0 20px 0;
             display: grid;
             grid-template-columns: repeat(auto-fill, minmax(120px, 1fr));
             gap: 20px;
+
+            @media screen and (max-width: $mobile-breakpoint) {
+                margin: 10px 5px 20px 5px;
+                grid-template-columns: repeat(auto-fill, minmax(110px, 1fr));
+            }
         }
 
         .card {
@@ -62,6 +69,14 @@
                 transition: opacity 0.3s ease;
                 z-index: 0;
             }
+
+            @media screen and (max-width: $mobile-breakpoint) {
+                height: 110px;
+            }
+        }
+
+        @media screen and (max-width: $mobile-breakpoint) {
+            width: 100%;
         }
     }
 }
