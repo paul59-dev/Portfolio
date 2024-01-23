@@ -30,5 +30,9 @@
                 transition: transform 0.3s ease; // Ajoutez une transition pour une animation fluide
             }
         }
+
+        @media screen and (max-width: $mobile-breakpoint) {
+            margin: 5px 10px;
+        }
     }
 }
