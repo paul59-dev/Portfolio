@@ -1,8 +1,9 @@
 import React from 'react';
-import FacebookIcon from "../assets/images/facebook.png"
-import InstagramIcon from "../assets/images/instagram.png"
-import TreadsIcon from "../assets/images/threads.png"
-import XIcon from "../assets/images/twitterpng.png"
+import FacebookIcon from "../assets/images/facebook.png";
+import InstagramIcon from "../assets/images/instagram.png";
+import TreadsIcon from "../assets/images/threads.png";
+import LinkedinIcon from "../assets/images/linkedin.png";
+import XIcon from "../assets/images/twitterpng.png";
 
 const Footer = () => {
     return (
@@ -31,6 +32,12 @@ const Footer = () => {
                     <a href="https://www.threads.net/@mr_paul59" target="_blank" rel="noopener noreferrer">
                         <img src={TreadsIcon} alt="Contacte moi sur treads" />
                         <p>Treads</p>
+                    </a>
+                </div>
+                <div>
+                    <a href="https://www.linkedin.com/in/paulallebee/" target="_blank" rel="noopener noreferrer">
+                        <img src={LinkedinIcon} alt="Contacte moi sur Linkedin" />
+                        <p>Linkedin</p>
                     </a>
                 </div>
                 <div>

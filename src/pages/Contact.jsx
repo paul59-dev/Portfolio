@@ -4,6 +4,7 @@ import Navigation from '../components/Navigation';
 import FacebookIcon from "../assets/images/facebook.png"
 import InstagramIcon from "../assets/images/instagram.png"
 import TreadsIcon from "../assets/images/threads.png"
+import LinkedinIcon from "../assets/images/linkedin.png";
 import XIcon from "../assets/images/twitterpng.png"
 
 const Contact = () => {
@@ -23,6 +24,9 @@ const Contact = () => {
                     </a>
                     <a href="https://www.threads.net/@mr_paul59" target="_blank" rel="noopener noreferrer">
                         <img src={TreadsIcon} alt="Contacte moi sur treads" />
+                    </a>
+                    <a href="https://www.linkedin.com/in/paulallebee/" target="_blank" rel="noopener noreferrer">
+                        <img src={LinkedinIcon} alt="Contacte moi sur linkedin" />
                     </a>
                     <a href="https://twitter.com/MrRaccoon59" target="_blank" rel="noopener noreferrer">
                         <img src={XIcon} alt="Contacte moi sur x" />
