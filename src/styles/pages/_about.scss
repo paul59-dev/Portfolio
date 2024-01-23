@@ -4,6 +4,10 @@
         
         .formations, .works {
             padding: 10px 100px;
+
+            @media screen and (max-width: $mobile-breakpoint){
+                padding: 10px 20px;
+            }
         }
     }
 }

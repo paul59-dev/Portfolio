@@ -14,6 +14,10 @@
         height: 150px; /* Hauteur de la ligne jusqu'à l'élément <p>{year}</p> */
         width: 2px; /* Largeur de la ligne noire */
         background-color: $black;
+
+        @media screen and (max-width: $mobile-breakpoint) {
+          height: calc(100% + 185px);
+        }
       }
   
       width: 10px;

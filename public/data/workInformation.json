@@ -6,7 +6,7 @@
         "listOfInformations": [
             "Amélioration de l’interface N-Admin sur la partie Backend et Frontend.",
             "Utilisation des méthodes agiles sur l’équipe de développement.",
-            "Utilisation de Symfony, MJML, YAML, Git et Gitlab pour le versioning."        
+            "Utilisation de Symfony, MJML, YAML."        
         ]
     },
     {
@@ -14,7 +14,7 @@
         "year": "Aout 2022 - Juillet 2023",
         "post": "Préparateurs de commandes",
         "listOfInformations": [
-            "Savoir gérer son temps, travaille d’équipes.",
+            "Savoir Gérer son temps, travaille d’équipes.",
             "Inventaire de nuit.",
             "Préparations et livraisons de commandes."
         ]
@@ -22,7 +22,7 @@
     {
         "company": "Cottage des Flandres",
         "year": "Mai - Juillet 2023",
-        "post": "Stage développement web et réseaux",
+        "post": "Stage web et réseaux",
         "listOfInformations": [
             "Réorganisation d'une baie de brassage.",
             "Support informatique par téléphone.",
