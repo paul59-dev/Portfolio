@@ -21,11 +21,13 @@ const Home = () => {
             <section>
                 <div className="grid-container">
                     {data.map((item, index) => (
-                        <div key={index} className="card">
-                            <h2>{item.title}</h2>
-                            <p>{item.description}</p>
-                            <p>{item.languages}</p>
-                        </div>
+                        <a href={item.link}>
+                            <div key={index} className="card">
+                                <h2>{item.title}</h2>
+                                <p>{item.description}</p>
+                                <p>{item.languages}</p>
+                            </div>
+                        </a>
                     ))}
                 </div>
             </section>
