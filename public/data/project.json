@@ -2,61 +2,73 @@
     {
         "title": "Quizz Game",
         "description": "Un jeu de quiz passionnant sur la culture générale.",
-        "languages": "Golang"
+        "languages": "Golang",
+        "link": "https://github.com/paul59-dev/QuizzGame"
     },
     {
         "title": "Post APi",
         "description": "API Node.js pour les publications d'utilisateurs, opérations CRUD sur les posts avec gestion des likes et dislikes.",
-        "languages": "Javascript"
+        "languages": "Javascript",
+        "link": "https://github.com/paul59-dev/Post-API"
     },
     {
         "title": "Casino",
         "description": "Un jeu de casino, miser, jouer, gagné !",
-        "languages": "Java"
+        "languages": "Java",
+        "link": "https://github.com/paul59-dev/Casino"
     },
     {
         "title": "Cottage",
         "description": "Projet de stage fin de BTS 1er année, pour la reservation de salle du Cottage des Flandres.",
-        "languages": "Javascript - PHP - Tailwind"
+        "languages": "Javascript - PHP - Tailwind",
+        "link": "https://github.com/paul59-dev/cottage"
     },
     {
         "title": "TikTakToeGo",
         "description": "Jeu de morpion en cli, joueur contre joueur.",
-        "languages": "Golang"
+        "languages": "Golang",
+        "link": "https://github.com/paul59-dev/TikTakToeGo"
     },
     {
         "title": "API-Pokemon",
         "description": "Api Nodejs pour créer, récupérer, modifier des pokémon.",
-        "languages": "Javascript"
+        "languages": "Javascript",
+        "link": "https://github.com/paul59-dev/Api-Rest-Pokemon"
     },
     {
         "title": "Library",
         "description": "Ce projet simule un système de bibliothèque pour la gestion des livres et des utilisateurs.",
-        "languages": "Java"
+        "languages": "Java",
+        "link": "https://github.com/paul59-dev/Library"
     },
     {
         "title": "ToDoList",
         "description": "Le projet est une application cli, pour la gestion de listes de tâches.",
-        "languages": "Java"
+        "languages": "Java",
+        "link": "https://github.com/paul59-dev/ToDoList"
     },
     {
         "title": "Nintendo",
         "description": "Refaire la page de Nintendo.",
-        "languages": "HTML - CSS"
+        "languages": "HTML - CSS",
+        "link": "https://github.com/paul59-dev/nintendoTP"
     },
     {
         "title": "GeneratePass",
         "description": "Stockage de compte et mot de passe, application en cli.",
-        "languages": "Ruby"
+        "languages": "Ruby",
+        "link": "https://github.com/paul59-dev/GeneratePass"
     },
     {
         "title": "Portfolio Nature",
         "description": "Portfolio sur la nature avec Unsplash.",
-        "languages": "HTML - CSS"
+        "languages": "HTML - CSS",
+        "link": "https://github.com/paul59-dev/Projet"
     },
     {
         "title": "EchoBot",
         "description": "Bot discord reponse: ping pong",
-        "languages": "Golang"
+        "languages": "Golang",
+        "link": "https://github.com/paul59-dev/EchoBot"
     }
 ]
