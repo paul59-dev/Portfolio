@@ -1,0 +1,34 @@
+[
+    {
+        "alt": "html",
+        "title": "HTML - 90%"
+    },
+    {
+        "alt": "CSS",
+        "title": "CSS - 80%"
+    },
+    {
+        "alt": "Javascript",
+        "title": "JS - 70%"
+    },
+    {
+        "alt": "Java",
+        "title": "Java - 60%"
+    },
+    {
+        "alt": "Golang",
+        "title": "Golang - 50%"
+    },
+    {
+        "alt": "Ruby",
+        "title": "Ruby - 60%"
+    },
+    {
+        "alt": "Php",
+        "title": "Php - 70%"
+    },
+    {
+        "alt": "Python",
+        "title": "Python - 50%"
+    }
+]

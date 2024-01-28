@@ -1,0 +1,32 @@
+[
+    {
+        "company": "Nexylan",
+        "year": "Septembre - Novembre 2023",
+        "post": "Alternance Développeur FullStack",
+        "listOfInformations": [
+            "Amélioration de l’interface N-Admin sur la partie Backend et Frontend.",
+            "Utilisation des méthodes agiles sur l’équipe de développement.",
+            "Utilisation de Symfony, MJML, YAML."        
+        ]
+    },
+    {
+        "company": "Chronodrive",
+        "year": "Aout 2022 - Juillet 2023",
+        "post": "Préparateurs de commandes",
+        "listOfInformations": [
+            "Savoir Gérer son temps, travaille d’équipes.",
+            "Inventaire de nuit.",
+            "Préparations et livraisons de commandes."
+        ]
+    },
+    {
+        "company": "Cottage des Flandres",
+        "year": "Mai - Juillet 2023",
+        "post": "Stage web et réseaux",
+        "listOfInformations": [
+            "Réorganisation d'une baie de brassage.",
+            "Support informatique par téléphone.",
+            "Création d'un site web intranet de réservation de salle de réunion."
+        ]
+    }   
+]

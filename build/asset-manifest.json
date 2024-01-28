@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/portfolio/static/css/main.f5337076.css",
+    "main.js": "/portfolio/static/js/main.c65db667.js",
+    "static/media/bg-card.avif": "/portfolio/static/media/bg-card.9dc8f49af73a6638fa71.avif",
+    "static/media/Paul.jpg": "/portfolio/static/media/Paul.81dd3aaccbe0cac96c97.jpg",
+    "static/media/instagram.png": "/portfolio/static/media/instagram.d43d8d68f580495ca815.png",
+    "static/media/php.png": "/portfolio/static/media/php.d5dc07a191de713c5108.png",
+    "static/media/Linux.png": "/portfolio/static/media/Linux.05087bc310caa928df7c.png",
+    "static/media/programming-language.png": "/portfolio/static/media/programming-language.74e8c0740284f113a32f.png",
+    "static/media/ruby-on-rails.png": "/portfolio/static/media/ruby-on-rails.abc1d24c825a7a788e88.png",
+    "static/media/react.png": "/portfolio/static/media/react.3b492bade043821ded42.png",
+    "static/media/follower.png": "/portfolio/static/media/follower.a418fd131aa3993f3301.png",
+    "static/media/comment.png": "/portfolio/static/media/comment.a141d03af798a1549c87.png",
+    "static/media/support.webp": "/portfolio/static/media/support.a84011e93fe3f69f7af7.webp",
+    "static/media/github-mark.svg": "/portfolio/static/media/github-mark.6fa18895f6e6c7772cab7049f7e05f59.svg",
+    "index.html": "/portfolio/index.html",
+    "main.f5337076.css.map": "/portfolio/static/css/main.f5337076.css.map",
+    "main.c65db667.js.map": "/portfolio/static/js/main.c65db667.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.f5337076.css",
+    "static/js/main.c65db667.js"
+  ]
+}
